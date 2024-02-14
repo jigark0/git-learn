@@ -1,0 +1,35 @@
+when there is only ~ then this means that currently it is showing C:\Users\jigar
+ls : this list all the folders in whichever directory you are
+
+cd (Change Directory ): this is used to move thorghout the folders in different folders.
+cd .. : we can use this to move back in the folder directory
+
+mkdir (make directory) : this is used to make folder in the directory wherever needed
+
+touch text.txt : this touch is used to add a file not folder in the selected folder directory
+
+start text.txt : this is used to open the selected file from the terminal
+
+rm text.txt : this is used to remove the particular file from the directory
+
+pwd : this is used to see the entire path in which we are in
+
+rm * : this is used to remove all the files form the directory except the folders in it
+
+clear : this is used to clear the previous history of command lines
+
+rm -r (folder name) : this is used to remove the entire folder and all the containing files within it will also get deleted
+
+rm -rf (folder name) : this is used to forcefully remove the entire folder and all the containing files within it will also get deleted
+
+cp (fileName) source/(folder) : copy the file in other folder
+
+mv (fileName) source/(folder) : move the file in other folder
+
+mv (fileName) (new name) : to rename a file or folder
+
+cat (fileName) : shows the file content in the terminal
+
+nano (fileName) : this basically opens the entire file in the text editor and there itself you can edit it.
+
+touch file-{001..100}txt : this will create 100 files like file-001.txt file-002.txt file-003.txt file-004.txt ...........

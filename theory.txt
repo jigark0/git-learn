@@ -1,0 +1,26 @@
+Rule =
+{} - this should be treated just a normal invisible thing which indicated that here what we have to right and it should be written
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+=> git init : initialize the git in the current directory
+git init -b {main} = the git initialize with the branch name main
+
+=> git status : used to check if any files are left untracked
+
+=> git add {file_name.xxx} : To add the file to git first git will be init, then it would be added to the git staging environment and after adding then we can commit the changes with the message. to add the file to the git staging environment and to get track of this file and add it completely to git we have to commit it should]
+
+=> git add . : moves all the untracked files to staging environment
+
+=> git commit -m {"message"} : to commit the file in the main branch followed by the message that what change has been made.
+
+=> git log : it shows what changes have been made or commits made with message
+
+=> git commit -a -m {"message"} : -a is there to skip the staging part (git add {file name.xxx}) and directly commit the changes with the message
+
+=> git diff {file name.xxx}: it shows what changes have been made since last commit and not updated.
+
+=> git rm --{file_name.txt} : to remove a file from the git
+
+=> git push origin main : after commiting the changes will not be shown on the branch or the github and this commands helps in pushing the commits to the specified branches.
+
